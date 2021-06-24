@@ -2,6 +2,9 @@
 :root {
     --primary-colour: #7c3aed;
 }
+hr {
+    margin: 1rem 0rem;
+}
 body {
     font-family:'Open Sans', sans-serif;
 }
@@ -28,6 +31,4 @@ body {
     color: var(--primary-colour);
     border: 1px solid var(--primary-colour);
     border-radius: 00.5rem;
-
-
 }
