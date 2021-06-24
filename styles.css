@@ -1,6 +1,4 @@
- body{
-     color: cadetblue;
- }
- .my--heading{
-     color: chartreuse;
- }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap');
+body {
+    font-family:'Open Sans', sans-serif;
+}
