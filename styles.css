@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap');
 :root {
     --primary-colour: #7c3aed;
+    --color:gray;
 }
 hr {
     margin: 1rem 0rem;
@@ -60,4 +61,20 @@ body {
 }
 .link-active {
     font-weight: bold;
+}
+.hero {
+    padding: 2rem;
+    text-align: center;
+}
+.hero .hero-img {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-title {
+    padding-top: 1rem;
+    color: var(--color);
+}
+.hero-title .highlight {
+    color: var(--primary-colour);
 }
