@@ -2,3 +2,7 @@
 body {
     font-family:'Open Sans', sans-serif;
 }
+.fluid-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
