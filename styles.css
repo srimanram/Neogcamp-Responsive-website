@@ -127,6 +127,9 @@ body {
 .footer .link {
     color: white;
 }
+.footer .footer-header{
+    font-weight: bold;
+}
 
 .footer ul {
     padding-inline-start: 0px;
