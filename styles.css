@@ -21,8 +21,9 @@ body {
 }
 
 .center-container {
-    max-width: 600px;
+    max-width: 550px;
     margin: auto;
+    text-align: center;
 }
 
 /** links **/
@@ -78,6 +79,7 @@ body {
 .link-active {
     font-weight: bold;
 }
+
 /**Header**/
 .hero {
     padding: 2rem;
@@ -85,7 +87,7 @@ body {
 }
 
 .hero .hero-img {
-    max-width: 300px;
+    max-width: 600px;
     display: block;
     margin: auto;
 }
@@ -102,26 +104,30 @@ body {
 /** Section **/
 .section {
     padding: 1rem;
-    background-color:ghostwhite;
+    background-color: ghostwhite;
+}
+.section-two{
+    padding: 1rem;
+    background-color: offwhite;
 }
 
 .section h1 {
     text-align: center;
 }
+
 /**Footer**/
 .footer {
     background-color: var(--primary-colour);
     padding: 2rem 1rem;
     color: aliceblue;
     text-align: center;
-    border-top-right-radius: 1rem ;
+    border-top-right-radius: 1rem;
 }
+
 .footer .link {
     color: white;
 }
+
 .footer ul {
     padding-inline-start: 0px;
 }
-
-    
-
