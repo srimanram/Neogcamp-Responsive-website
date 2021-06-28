@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-colour: #7c3aed;
-    --color: gray;
+    --primary-colour: #37474f;
+    --color: #263238;
+    --color-two:gray;
+    --color-three:#cfd8dc;
+    --color-four:#eceff1;
 }
 
 hr {
@@ -56,10 +59,10 @@ body {
 }
 
 .navigation {
-    background-color: #B45309;
+    background-color: var(--primary-colour);
     color: white;
     padding: 1rem;
-    border-radius: 0rem 0rem 0rem 1.5rem;
+    border-radius: 0rem 0rem 0rem 2rem;
 }
 
 .nav-color {
@@ -95,23 +98,21 @@ body {
 
 .hero .hero-title {
     padding-top: 1rem;
-    color: var(--color);
+    color: var(--color-two);
 }
 
 .hero-title .highlight {
-    color: #78350F;
+    color: var(--color);
 }
 
 /** Section **/
 .section {
     padding: 1rem;
-    background-color: #FEF3C7
-
-    ;
+    background-color: var(--color-three);
 }
 .section-two{
     padding: 1rem;
-    background-color: offwhite;
+    background-color:var(--color-four);
 }
 
 .section h1 {
@@ -120,20 +121,24 @@ body {
 
 /**Footer**/
 .footer {
-    background-color: #B45309;
+    background-color: var(--primary-colour);
     padding: 2rem 1rem;
-    color: aliceblue;
+    color: white;
     text-align: center;
-    border-top-right-radius: 1rem;
+    border-top-right-radius: 2rem;
 }
 
 .footer .link {
     color: white;
 }
 .footer .footer-header{
+    font-size:x-large;
     font-weight: bold;
 }
 
 .footer ul {
     padding-inline-start: 0px;
+}
+.foot {
+    padding-top: 1rem;
 }
