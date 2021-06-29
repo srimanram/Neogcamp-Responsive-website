@@ -3,9 +3,9 @@
 :root {
     --primary-colour: #37474f;
     --color: #263238;
-    --color-two:gray;
-    --color-three:#cfd8dc;
-    --color-four:#eceff1;
+    --color-two: gray;
+    --color-three: #cfd8dc;
+    --color-four: #eceff1;
 }
 
 hr {
@@ -27,14 +27,14 @@ body {
     max-width: 650px;
     margin: auto;
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 /** links **/
 .first-link {
     background-color: var(--primary-colour);
     border-radius: 0.5rem;
-    color:white
-    
+    color: white
 }
 
 .link {
@@ -56,7 +56,7 @@ body {
 .inline {
     display: inline;
     padding: 0rem 1rem;
-    
+
 }
 
 .navigation {
@@ -103,6 +103,9 @@ body {
     color: var(--color-two);
 }
 
+.hero-title {
+    padding-bottom: 1rem;
+}
 .hero-title .highlight {
     color: var(--color);
 }
@@ -112,9 +115,10 @@ body {
     padding: 1rem;
     background-color: var(--color-three);
 }
-.section-two{
+
+.section-two {
     padding: 1rem;
-    background-color:var(--color-four);
+    background-color: var(--color-four);
 }
 
 .section h1 {
@@ -133,14 +137,30 @@ body {
 .footer .link {
     color: white;
 }
-.footer .footer-header{
-    font-size:x-large;
+
+.footer .footer-header {
+    font-size: x-large;
     font-weight: bold;
 }
 
 .footer ul {
     padding-inline-start: 0px;
 }
+
 .foot {
     padding-top: 1rem;
+}
+
+.projet-item {
+    background-color: var(--color-three);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+.projet-item-two {
+    background-color: var(--color-four);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
 }
