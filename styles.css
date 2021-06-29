@@ -164,3 +164,13 @@ body {
     padding-bottom: 2rem;
     padding-left: 1rem;
 }
+.update-soon {
+    text-align: center;
+    width: auto;
+}
+.update-soon .hero-title {
+    color: var(--color-two);
+}
+.highlight {
+    color: var(--color);
+}
