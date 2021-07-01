@@ -105,9 +105,7 @@ body {
     color: var(--color-two);
 }
 
-.hero-title {
-    padding-bottom: 1rem;
-}
+
 .hero-title .highlight {
     color: var(--color);
 }
@@ -168,7 +166,7 @@ body {
     padding-left: 1rem;
 }
 .update-soon {
-    text-align: center;
+    
     width: auto;
 }
 .update-soon .hero-title {
@@ -176,4 +174,13 @@ body {
 }
 .highlight {
     color: var(--color);
+}
+.update-soon .web {
+    padding-top: 1rem;
+    
+}
+.hero .about {
+    color:var(--color-two);
+    text-align: left;
+    padding: none;
 }
