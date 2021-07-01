@@ -183,4 +183,9 @@ body {
     color:var(--color-two);
     text-align: left;
     padding: none;
+    max-width: 650px;
+}
+.hero .para{
+    max-width: 100%;
+    text-align: left;
 }
